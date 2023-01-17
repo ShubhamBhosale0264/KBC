@@ -30,7 +30,7 @@ questions = ["what is the highest score in ODI cricket?",
 
 first_option = ["209", "India",
                 "109", "Euro",
-                "Javascript", "junaghar",
+                "Javascript", "assam",
                 "Windows 7", "may 8", "11:23PM", "SO",
                 "Earth", "8",
                 "100 years", "1958-Tokyo", "Cricket","Sep 28"]
@@ -60,7 +60,7 @@ fourth_option = ["205", "NZ",
                  "1000 years", "1970-BK",
                  "Volleyball","Sep 22"]
 
-correct_answers = ["264*", "NZ", "122", "Dollar", "Python", "Diphu",
+correct_answers = ["264*", "NZ", "122", "Dollar", "Python", "assam",
                    "Linux", "may 8", "7:23PM", "sus. matter", "Jupiter", "7", "1000 years", "1958-Tokyo",
                    "Football","Sep 28"]
 
