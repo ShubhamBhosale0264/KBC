@@ -63,8 +63,6 @@ fourth_option = ["205", "NZ",
 correct_answers = ["264*", "NZ", "122", "Dollar", "Python", "assam",
                    "Linux", "may 8", "7:23PM", "sus. matter", "Jupiter", "7", "1000 years", "1958-Tokyo",
                    "Football","Sep 28"]
-
-
 def select(event):
     mixer.music.set_volume(1)
     b = event.widget
@@ -179,7 +177,7 @@ def select(event):
             root1.grab_set()
             root1.config(bg='black')
             root1.geometry('500x400+140+30')
-            root1.title('You won 0 Pound')
+            root1.title('You won 0 rupees')
             img = PhotoImage(file='center.png')
             imgLabel = Label(root1, image=img, bd=0)
             imgLabel.pack(pady=30)
