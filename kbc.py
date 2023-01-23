@@ -33,7 +33,7 @@ first_option = ["209", "India",
                 "Javascript", "assam",
                 "Windows 7", "may 8", "11:23PM", "SO",
                 "Earth", "8",
-                "100 years", "1958-Tokyo", "Cricket","Sep 28"]
+                "100 years", "1958-Tokyo", "Cricket","sep 8"]
 
 second_option = ["183", "AUS",
                  "122", "Peso ",
@@ -62,7 +62,7 @@ fourth_option = ["205", "NZ",
 
 correct_answers = ["264*", "NZ", "122", "Dollar", "Python", "assam",
                    "Linux", "may 8", "7:23PM", "sus. matter", "Jupiter", "7", "1000 years", "1958-Tokyo",
-                   "Football","Sep 28"]
+                   "Football","sep 8"]
 def select(event):
     mixer.music.set_volume(1)
     b = event.widget
