@@ -295,7 +295,7 @@ def audiencePoleLifeline():
 
         progressbarB.config(value=60)
 
-        progressbarC.config(value=40)
+        progressbarC.config(value=95)
 
         progressbarD.config(value=90)
 
@@ -306,12 +306,12 @@ def audiencePoleLifeline():
 
         progressbarC.config(value=40)
 
-        progressbarD.config(value=30)
+        progressbarD.config(value=90)
 
     if questionArea.get(1.0, 'end-1c') == questions[2]:
         progressbarA.config(value=80)
 
-        progressbarB.config(value=60)
+        progressbarB.config(value=95)
 
         progressbarC.config(value=50)
 
@@ -354,7 +354,7 @@ def audiencePoleLifeline():
         progressbarD.config(value=40)
 
     if questionArea.get(1.0, 'end-1c') == questions[7]:
-        progressbarA.config(value=10)
+        progressbarA.config(value=90)
 
         progressbarB.config(value=70)
 
@@ -363,11 +363,11 @@ def audiencePoleLifeline():
         progressbarD.config(value=30)
 
     if questionArea.get(1.0, 'end-1c') == questions[8]:
-        progressbarA.config(value=90)
+        progressbarA.config(value=8)
 
         progressbarB.config(value=80)
 
-        progressbarC.config(value=70)
+        progressbarC.config(value=90)
 
         progressbarD.config(value=20)
 
@@ -405,7 +405,7 @@ def audiencePoleLifeline():
 
         progressbarC.config(value=50)
 
-        progressbarD.config(value=80)
+        progressbarD.config(value=90)
 
     if questionArea.get(1.0, 'end-1c') == questions[13]:
         progressbarA.config(value=60)
@@ -414,16 +414,16 @@ def audiencePoleLifeline():
 
         progressbarC.config(value=40)
 
-        progressbarD.config(value=80)
+        progressbarD.config(value=20)
 
     if questionArea.get(1.0, 'end-1c') == questions[14]:
         progressbarA.config(value=60)
 
-        progressbarB.config(value=65)
+        progressbarB.config(value=80)
 
-        progressbarC.config(value=90)
+        progressbarC.config(value=9)
 
-        progressbarD.config(value=80)
+        progressbarD.config(value=0)
     if questionArea.get(1.0, 'end-1c') == questions[15]:
         progressbarA.config(value=99)
 
