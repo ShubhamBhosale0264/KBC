@@ -38,7 +38,7 @@ first_option = ["209", "India",
                 "100 years", "1958-Tokyo", "Cricket","sep 8"]
 # created list for option 2
 second_option = ["183", "AUS",
-                 "122", "Peso ",
+                 "126", "Peso ",
                  "Python", "Diphu",
                  "Linux", "june 9", "11.11PM", "NO",
                  "Uranus", "5",
@@ -62,7 +62,7 @@ fourth_option = ["205", "NZ",
                  "1000 years", "1970-BK",
                  "Volleyball","Sep 22"]
 # created list for correct answers 
-correct_answers = ["264*", "NZ", "122", "Dollar", "Python", "assam",
+correct_answers = ["264*", "NZ", "126", "Dollar", "Python", "assam",
                    "Linux", "may 8", "7:23PM", "sus. matter", "Jupiter", "7", "1000 years", "1958-Tokyo",
                    "Football","sep 8"]
 #  This is a function that takes an event as input and returns nothing.
@@ -118,7 +118,9 @@ def select(event):
                 root2.grab_set()
                 root2.config(bg='black')
                 root2.geometry('500x400+140+30')
-                root2.title('You won 1 million Pounds')
+                root2.title('You won 7 cr')
+                mixer.music.load('7cr.mp3')
+                mixer.music.play(1)
                 centerimg = PhotoImage(file='center.png')
                 imgLabel = Label(root2, image=centerimg, bd=0, )
                 imgLabel.pack(pady=30)
