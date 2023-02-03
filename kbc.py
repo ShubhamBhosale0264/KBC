@@ -11,7 +11,7 @@ mixer.music.play(1)
 
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
-engine.setProperty('voice', voices[0].id)#used system voice for output
+engine.setProperty('voice', voices[1].id)#used system voice for output
 # created a list of questions for game 
 questions = ["what is the highest score in ODI cricket?",
              "which Team WON WTC first Edition ?",
@@ -46,7 +46,7 @@ second_option = ["183", "AUS",
                  "50 years",
                  "1962-jakrta", "Football","Nov 28"]
 # created list for option 3
-third_option = ["264*", "Eng",
+third_option = ["264", "Eng",
                 "117", "Dollar",
                 "Java", "kohima",
                 "Mac", "may 16", "7:23PM", "sus. matter",
@@ -63,7 +63,7 @@ fourth_option = ["205", "NZ",
                  "1000 years", "1970-BK",
                  "Volleyball","Sep 22"]
 # created list for correct answers 
-correct_answers = ["264*", "NZ", "126", "Dollar", "Python", "assam",
+correct_answers = ["264", "NZ", "126", "Dollar", "Python", "assam",
                    "Linux", "may 8", "7:23PM", "sus. matter", "Jupiter", "7", "1000 years", "1958-Tokyo",
                    "Football","sep 8"]
 # for i in range(16):
