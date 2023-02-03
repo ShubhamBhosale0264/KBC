@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter.ttk import Progressbar
 import pyttsx3
+import time
 from pygame import mixer
 # imported all necessary librarys
 
@@ -65,6 +66,8 @@ fourth_option = ["205", "NZ",
 correct_answers = ["264*", "NZ", "126", "Dollar", "Python", "assam",
                    "Linux", "may 8", "7:23PM", "sus. matter", "Jupiter", "7", "1000 years", "1958-Tokyo",
                    "Football","sep 8"]
+# for i in range(16):
+#     time.sleep(5)
 #  This is a function that takes an event as input and returns nothing.
 def select(event):
     mixer.music.set_volume(1)
@@ -220,11 +223,11 @@ def lifeline50():
     lifeline50Button.config(state=DISABLED)
 
     if questionArea.get(1.0, 'end-1c') == questions[0]:
-        optionButton1.config(text='')
-        optionButton3.config(text='')
+        optionButton1.config(text ='')
+        optionButton4.config(text = '')
 
     if questionArea.get(1.0, 'end-1c') == questions[1]:
-        optionButton4.config(text='')
+        optionButton3.config(text='')
         optionButton1.config(text='')
 
     if questionArea.get(1.0, 'end-1c') == questions[2]:
@@ -279,8 +282,8 @@ def lifeline50():
         optionButton1.config(text='')
         optionButton4.config(text='')
     if questionArea.get(1.0, 'end-1c') == questions[15]:
-        optionButton1.config(text='')
-        optionButton4.config(text='')
+        optionButton2.config(text='')
+        optionButton3.config(text='')
 
 # created a second lifeline named audience poll which can be used by only once 
 def audiencePoleLifeline():
@@ -300,147 +303,146 @@ def audiencePoleLifeline():
     progressbarLabelD.place(x=700, y=320)
 # added value for progressbar to provide correct answers 
     if questionArea.get(1.0, 'end-1c') == questions[0]:
-        progressbarA.config(value=30)
+        progressbarA.config(value=0)
 
-        progressbarB.config(value=60)
+        progressbarB.config(value=2)
 
         progressbarC.config(value=95)
 
-        progressbarD.config(value=90)
+        progressbarD.config(value=3)
 
     if questionArea.get(1.0, 'end-1c') == questions[1]:
-        progressbarA.config(value=30)
+        progressbarA.config(value=2)
 
-        progressbarB.config(value=80)
+        progressbarB.config(value=8)
 
-        progressbarC.config(value=40)
+        progressbarC.config(value=0)
 
         progressbarD.config(value=90)
 
     if questionArea.get(1.0, 'end-1c') == questions[2]:
-        progressbarA.config(value=80)
-
-        progressbarB.config(value=95)
-
-        progressbarC.config(value=50)
-
-        progressbarD.config(value=70)
-
-    if questionArea.get(1.0, 'end-1c') == questions[3]:
-        progressbarA.config(value=30)
-
-        progressbarB.config(value=70)
-
-        progressbarC.config(value=90)
-
-        progressbarD.config(value=50)
-
-    if questionArea.get(1.0, 'end-1c') == questions[4]:
-        progressbarA.config(value=30)
+        progressbarA.config(value=10)
 
         progressbarB.config(value=80)
 
-        progressbarC.config(value=40)
+        progressbarC.config(value=5)
 
-        progressbarD.config(value=30)
+        progressbarD.config(value=5)
+
+    if questionArea.get(1.0, 'end-1c') == questions[3]:
+        progressbarA.config(value=8)
+
+        progressbarB.config(value=12)
+
+        progressbarC.config(value=70)
+
+        progressbarD.config(value=10)
+
+    if questionArea.get(1.0, 'end-1c') == questions[4]:
+        progressbarA.config(value=3)
+        progressbarB.config(value=80)
+
+        progressbarC.config(value=15)
+
+        progressbarD.config(value=2)
 
     if questionArea.get(1.0, 'end-1c') == questions[5]:
         progressbarA.config(value=80)
 
         progressbarB.config(value=10)
 
-        progressbarC.config(value=40)
+        progressbarC.config(value=4)
 
-        progressbarD.config(value=30)
+        progressbarD.config(value=6)
 
     if questionArea.get(1.0, 'end-1c') == questions[6]:
-        progressbarA.config(value=30)
+        progressbarA.config(value=20)
 
-        progressbarB.config(value=80)
+        progressbarB.config(value=50)
 
         progressbarC.config(value=20)
 
-        progressbarD.config(value=40)
+        progressbarD.config(value=10)
 
     if questionArea.get(1.0, 'end-1c') == questions[7]:
         progressbarA.config(value=90)
 
-        progressbarB.config(value=70)
+        progressbarB.config(value=7)
 
-        progressbarC.config(value=50)
+        progressbarC.config(value=0)
 
-        progressbarD.config(value=30)
+        progressbarD.config(value=3)
 
     if questionArea.get(1.0, 'end-1c') == questions[8]:
         progressbarA.config(value=8)
 
-        progressbarB.config(value=80)
+        progressbarB.config(value=2)
 
         progressbarC.config(value=90)
 
-        progressbarD.config(value=20)
+        progressbarD.config(value=0)
 
     if questionArea.get(1.0, 'end-1c') == questions[9]:
-        progressbarA.config(value=30)
+        progressbarA.config(value=10)
 
-        progressbarB.config(value=50)
+        progressbarB.config(value=15)
 
         progressbarC.config(value=70)
 
-        progressbarD.config(value=60)
+        progressbarD.config(value=5)
 
     if questionArea.get(1.0, 'end-1c') == questions[10]:
-        progressbarA.config(value=40)
+        progressbarA.config(value=10)
 
-        progressbarB.config(value=20)
+        progressbarB.config(value=10)
 
-        progressbarC.config(value=50)
+        progressbarC.config(value=20)
 
-        progressbarD.config(value=70)
+        progressbarD.config(value=60)
 
     if questionArea.get(1.0, 'end-1c') == questions[11]:
-        progressbarA.config(value=30)
+        progressbarA.config(value=18)
 
-        progressbarB.config(value=80)
+        progressbarB.config(value=5)
 
-        progressbarC.config(value=90)
+        progressbarC.config(value=75)
 
-        progressbarD.config(value=40)
+        progressbarD.config(value=2)
 
     if questionArea.get(1.0, 'end-1c') == questions[12]:
-        progressbarA.config(value=20)
+        progressbarA.config(value=2)
 
-        progressbarB.config(value=60)
+        progressbarB.config(value=0)
 
-        progressbarC.config(value=50)
+        progressbarC.config(value=8)
 
         progressbarD.config(value=90)
 
     if questionArea.get(1.0, 'end-1c') == questions[13]:
         progressbarA.config(value=60)
 
-        progressbarB.config(value=35)
+        progressbarB.config(value=30)
 
-        progressbarC.config(value=40)
+        progressbarC.config(value=5)
 
-        progressbarD.config(value=20)
+        progressbarD.config(value=5)
 
     if questionArea.get(1.0, 'end-1c') == questions[14]:
+        progressbarA.config(value=13)
+
+        progressbarB.config(value=80)
+
+        progressbarC.config(value=6)
+
+        progressbarD.config(value=1)
+    if questionArea.get(1.0, 'end-1c') == questions[15]:
         progressbarA.config(value=60)
 
-        progressbarB.config(value=80)
+        progressbarB.config(value=12)
 
-        progressbarC.config(value=9)
+        progressbarC.config(value=12)
 
-        progressbarD.config(value=0)
-    if questionArea.get(1.0, 'end-1c') == questions[15]:
-        progressbarA.config(value=99)
-
-        progressbarB.config(value=80)
-
-        progressbarC.config(value=60)
-
-        progressbarD.config(value=50)
+        progressbarD.config(value=16)
 
 # created a 3rd lifelien (call a friend ) and loaded a calling music 
 def phoneLifeline():
