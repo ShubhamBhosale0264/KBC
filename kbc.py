@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter.ttk import Progressbar
 import pyttsx3
+import time
 from pygame import mixer
 # imported all necessary librarys
 
@@ -65,6 +66,8 @@ fourth_option = ["205", "NZ",
 correct_answers = ["264*", "NZ", "126", "Dollar", "Python", "assam",
                    "Linux", "may 8", "7:23PM", "sus. matter", "Jupiter", "7", "1000 years", "1958-Tokyo",
                    "Football","sep 8"]
+# for i in range(16):
+#     time.sleep(5)
 #  This is a function that takes an event as input and returns nothing.
 def select(event):
     mixer.music.set_volume(1)
@@ -220,11 +223,11 @@ def lifeline50():
     lifeline50Button.config(state=DISABLED)
 
     if questionArea.get(1.0, 'end-1c') == questions[0]:
-        optionButton1.config(text='')
-        optionButton3.config(text='')
+        optionButton1.config(text ='')
+        optionButton4.config(state = DISABLED)
 
     if questionArea.get(1.0, 'end-1c') == questions[1]:
-        optionButton4.config(text='')
+        optionButton3.config(text='')
         optionButton1.config(text='')
 
     if questionArea.get(1.0, 'end-1c') == questions[2]:
@@ -279,8 +282,8 @@ def lifeline50():
         optionButton1.config(text='')
         optionButton4.config(text='')
     if questionArea.get(1.0, 'end-1c') == questions[15]:
-        optionButton1.config(text='')
-        optionButton4.config(text='')
+        optionButton2.config(text='')
+        optionButton3.config(text='')
 
 # created a second lifeline named audience poll which can be used by only once 
 def audiencePoleLifeline():
