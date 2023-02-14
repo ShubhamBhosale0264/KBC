@@ -467,7 +467,7 @@ def phoneclick():
 root = Tk()
 root.geometry('1270x652+0+0')
 root.resizable(0, 0)
-root.title('kaun banega crorepati🤑')
+root.title('kaun banega crorepati🤑                                                                                                                                                                                                                         -ShubhamBhosale')
 root.config(bg='black')
 # left frame 
 leftFrame = Frame(root, bg='black', padx=90)
