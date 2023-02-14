@@ -54,7 +54,7 @@ third_option = ["264", "Eng",
                 "500 years",
                 "1966-BK", "Hockey","May 2"]
 # created list for option 4
-fourth_option = ["205", "NZ",
+fourth_option = ["205", "NewZeland",
                  "108", "Yen",
                  "JS", "gangtok",
                  "Windows XP", "april 7", "9.11PM", "CO",
@@ -63,7 +63,7 @@ fourth_option = ["205", "NZ",
                  "1000 years", "1970-BK",
                  "Volleyball","Sep 22"]
 # created list for correct answers 
-correct_answers = ["264", "NZ", "126", "Dollar", "Python", "assam",
+correct_answers = ["264", "NewZeland", "126", "Dollar", "Python", "assam",
                    "Linux", "may 8", "7:23PM", "sus. matter", "Jupiter", "7", "1000 years", "1958-Tokyo",
                    "Football","sep 8"]
 
